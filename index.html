@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Idade</title>
+    <link rel="shortcut icon" href="img/user.svg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>
+            Verificador de idade
+        </h1>
+    </header>     
+
+    <section>
+        
+        <label for="ano">Ano de Nascimento:</label>
+        <input type="number" name="ano" id="ano" required> <br>
+
+        <label for="sex">Sexo:</label> 
+        <input type="radio" name="sex" id="sexmas" value="Homem" required>
+        <label for="sexmas">Masculino</label>
+        <input type="radio" name="sex" id="sexfem" value="Mulher" required>
+        <label for="sexfem">Feminino</label> <br>
+        
+        <input type="submit" value="Verificador" onclick="clicar()">
+        
+
+         <p id="p">
+             Preencha os dados acima para ver o resultado!
+         </p>
+          <div id="img">
+
+        </div>
+     </section>
+    
+    <footer>
+        &copy; João Gabriel dos Santos
+    </footer>
+        
+
+    <script src="comand.js"></script>
+</body>
+</html>
